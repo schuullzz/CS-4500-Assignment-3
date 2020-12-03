@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PlanetX/Scenes/Main.unity
+    guid: 596486f510718794fa8073637c411923
+  - enabled: 1
+    path: Assets/PlanetX/Scenes/PlanetX.unity
+    guid: 0f6607414e5ce884d8e5a5790056060b
+  - enabled: 1
+    path: Assets/PlanetX/Scenes/Quiz.unity
+    guid: ebdfcd85843e8da44a778f93eac017bd
   m_configObjects: {}
