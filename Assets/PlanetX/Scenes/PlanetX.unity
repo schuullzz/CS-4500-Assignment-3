@@ -560,7 +560,7 @@ TextMesh:
   m_GameObject: {fileID: 291255554}
   m_Text: '   Item #3
 
-    Weight: 30kg'
+    Mass: 30kg'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -834,9 +834,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422337972}
-  m_Text: '    Item #1
+  m_Text: '   Item #1
 
-    Weight: 20kg'
+    Mass: 20kg'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3270,7 +3270,7 @@ TextMesh:
   m_GameObject: {fileID: 1481978833}
   m_Text: '    Item #2
 
-    Weight: 10kg'
+    Mass: 10kg'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
