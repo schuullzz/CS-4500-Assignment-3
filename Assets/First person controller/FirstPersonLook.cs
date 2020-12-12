@@ -2,6 +2,7 @@
 
 public class FirstPersonLook : MonoBehaviour
 {
+    //Variables used to hold mouse input and overall operation.
     [SerializeField]
     Transform character;
     Vector2 currentMouseLook;
@@ -9,17 +10,19 @@ public class FirstPersonLook : MonoBehaviour
     public float sensitivity = 1;
     public float smoothing = 2;
 
-
+    //Resets when character is spawned.
     void Reset()
     {
         character = GetComponentInParent<FirstPersonMovement>().transform;
     }
 
+    //Function is called when program starts to gain control of mouse.
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
 
+    //Updates mouse movements.
     void Update()
     {
         // Get smooth mouse look.

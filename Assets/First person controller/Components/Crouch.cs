@@ -19,7 +19,7 @@ public class Crouch : MonoBehaviour
     public bool IsCrouched { get; private set; }
     public event System.Action CrouchStart, CrouchEnd;
 
-
+    //On character spawn function is called and variables are set.
     void Reset()
     {
         head = GetComponentInChildren<Camera>().transform;
@@ -32,6 +32,7 @@ public class Crouch : MonoBehaviour
             groundCheck = GroundCheck.Create(transform);
     }
 
+    //When program starts function is called to gain control.
     void Start()
     {
         defaultHeadYLocalPosition = head.localPosition.y;
@@ -39,6 +40,7 @@ public class Crouch : MonoBehaviour
             defaultCapsuleColliderHeight = capsuleCollider.height;
     }
 
+    //Will update while player 1 is moving.
     void LateUpdate()
     {
         if (IsKeyPressed(keys))
@@ -77,7 +79,6 @@ public class Crouch : MonoBehaviour
             CrouchEnd?.Invoke();
         }
     }
-
 
     static bool IsKeyPressed(KeyCode[] keys)
     {
