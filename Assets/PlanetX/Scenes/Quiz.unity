@@ -1978,7 +1978,8 @@ MonoBehaviour:
 
     Density = Mass (grams) / Volume (cm^3)
 
-    Volume for item 1 = '
+    Volume for cube = L
+    * W * H (cm^3)'
 --- !u!222 &346706967
 CanvasRenderer:
   m_ObjectHideFlags: 0
