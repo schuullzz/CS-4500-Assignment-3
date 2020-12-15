@@ -19,7 +19,7 @@ public class FirstPersonLook : MonoBehaviour
     //Function is called when program starts to gain control of mouse.
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     //Updates mouse movements.
