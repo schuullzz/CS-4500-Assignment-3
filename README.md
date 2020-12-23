@@ -1,3 +1,3 @@
-# CS-4500-Assignment-3
+# Planet X
 
-Team Crunch
+Programmer's Guide Located In Files
